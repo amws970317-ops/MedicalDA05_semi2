@@ -1,10 +1,10 @@
-# 마음 온도계 — Streamlit 실행 가이드
+# Streamlit 실행 가이드
 
 ## 📁 파일 구조
 
 ```
 MedicalDA05_semi2/
-├── app.py                          ← 이 파일 실행
+├── app.py                         ← 이 파일 실행
 ├── model.py                       
 ├── saved_models/
 │   └── KLUEBERT_Dataset1/         ← 모델 저장된 폴더
@@ -48,7 +48,7 @@ $env:OPENAI_API_KEY = "공유드린키"
 ### 3단계: streamlit 실행
 
 ```bash
-streamlit run streamlit_app_4.py
+streamlit run app.py
 ```
 
 
