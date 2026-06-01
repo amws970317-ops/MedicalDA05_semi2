@@ -7,7 +7,7 @@ MedicalDA05_semi2/
 ├── app 파일 이름.py           ← 이 파일 실행
 ├── model.py                  ← 파일 이름 model.py로 유지해야 실행됨
 ├── saved_models/
-│   └── KLUEBERT_Dataset1/    ← 모델 저장된 폴더
+│   └── KLUEBERT_Dataset2/    ← 모델 저장된 폴더
 │       ├── config.json
 │       ├── model.safetensors
 │       ├── tokenizer_config.json
@@ -26,7 +26,7 @@ MedicalDA05_semi2/
 
 https://drive.google.com/drive/u/0/folders/1I5b3VqcPctEbg7D3TPhTGMeaORIchdAn
 
-구글 드라이브에서 KLUEBERT_Dataset1 폴더 통째로 다운로드
+구글 드라이브에서 KLUEBERT_Dataset2 폴더 통째로 다운로드
 
 클론한 MedicalDA05_semi2 폴더 안에 saved_models 폴더 만들어서 다운 받은거 넣기
 
@@ -41,14 +41,14 @@ pip install streamlit openai
 
 
 ```bash
-$env:OPENAI_API_KEY = "공유드린키"
+$env:OPENAI_API_KEY = 공유드린키
 ```
 
 
 ### 3단계: streamlit 실행
 
 ```bash
-streamlit run "app 파일 이름".py
+streamlit run app 파일 이름.py
 ```
 
 
